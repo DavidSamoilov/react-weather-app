@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing :0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.App{
+    background-image:url("https://images.pexels.com/photos/1755683/pexels-photo-1755683.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") ;
+    background-size: cover;
+    background-position: bottom;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+}
+.App.warm{
+    background-image: "https://images.pexels.com/photos/1237119/pexels-photo-1237119.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260";
+
+
+}
+main{
+    min-height: 100vh;
+}
